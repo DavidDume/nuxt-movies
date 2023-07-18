@@ -11,6 +11,9 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.scss'],
   runtimeConfig: {
     apiKey: '',
-    apiBaseUrl: ''
+    apiBaseUrl: '',
+    public: {
+      imgBaseURL: ''
+    }
   }
 })
