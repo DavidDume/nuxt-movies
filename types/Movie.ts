@@ -1,7 +1,7 @@
 export type Movie = {
     id: number;
     title: string;
-    gneres: {
+    genres: {
         id: number;
         name: string;
     }[];
